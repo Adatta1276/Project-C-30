@@ -24,7 +24,7 @@ var st;
 function preload() 
 {
    gameBack = loadImage("grad_backg.jpg");
-   st = loadSound("Lvly_Wild.mp3");
+  // st = loadSound("Lvly_Wild.mp3");
 }
 
 //the setup function
@@ -90,7 +90,7 @@ function draw()
       background(gameBack);
       Engine.update(engine);
 
-      st.play();
+      //st.play();
       //loop();
 
       fill("red");
