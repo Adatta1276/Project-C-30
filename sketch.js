@@ -183,9 +183,7 @@ text("TOWER - SIEGE_1 BY A.D",590,89 );
  
 if(keyCode === 32) {
   Matter.Body.setPosition(shooter.body,{x:306,y:332});
-  slingy2 = new SlingShot(shooter.body, {x:172, y:230})
-  slingy2.display();
-  slingy2.fly();
+  slingy1.attach(shooter.body);
 }
 //console.log(shooter.body.position.y);
 
